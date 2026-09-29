@@ -1,6 +1,3 @@
 ```mermaid
-flowchart TD
-A[Login]--> B[Início]
-B--> C[Disponibilidade]
-C-->[Escalas]
-```
+flowchart LR
+    A[Login] --> B[Início] --> C[Disponibilidade] --> D[Tabela]
